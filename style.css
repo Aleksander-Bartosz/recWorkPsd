@@ -41,6 +41,7 @@ ol > li {
 	float: left;
 	width: 150px;
 	height: 40px;
+	width:120px;
 }
 
 ol > li:hover {
@@ -345,7 +346,7 @@ sup {
 }
 .form2 {
 	width:240px;
-	height:350px;
+	height:352px;
 	margin-left:50px;
 	margin-top:50px;
 	text-align:center;
@@ -355,8 +356,8 @@ sup {
 .circle2 {
 	border-radius:50%;
 	background:#26c7a9;
-	width:41px;
-	height:41px;
+	width:42px;
+	height:42px;
 	position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
