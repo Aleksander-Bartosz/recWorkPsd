@@ -159,9 +159,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 }
 .HeaderButton:hover {
 	cursor:pointer;
-}
-section {
-	
+	background:red;
 }
 .sectionContainer {
 	width:950px;
@@ -344,9 +342,13 @@ sup {
 	position:relative;
 	margin-top:50px;
 }
+.formButton:hover {
+	background:red;
+	cursor:pointer;
+}
 .form2 {
 	width:240px;
-	height:352px;
+	height:353px;
 	margin-left:50px;
 	margin-top:50px;
 	text-align:center;
@@ -421,6 +423,11 @@ sup {
 	position:relative;
 	margin-top:55px;
 }
+.formButton2:hover {
+	background:red;
+	cursor:pointer;
+	color:yellow;
+}
 .price2 {
 	display:block;
 	font-size:30px;
@@ -475,6 +482,10 @@ sup {
 	position:relative;
 	margin-top:13px;
 }
+.formButton3:hover {
+	background:red;
+	cursor:pointer;
+}
 footer {
 	width:100%;
 	height:100%;
@@ -486,7 +497,7 @@ footer {
 	margin:auto;
 	
 }
-.ContanerFormFooter {
+form {
 	margin-left:50px;
 	float:left;
 }
@@ -504,6 +515,7 @@ textarea[rows='5'] {
 	width:470px;
 	color: #d4d4d4; 
 	font-family: 'ralewayblack';
+	border: 1px solid #a6e3d1;
 }			
 .RightFooter {
 	float:left;
@@ -526,15 +538,16 @@ textarea[rows='5'] {
 	height:40px;
 	border:solid 1px #a8e3d0; 
 	float:left;
-	
 }
-.Ptaszek {
-	margin:2px;
+#ptaszek {
+	margin:3px;
 	width:30px;
 	height:30px;
-	background-image:url("images/form_ok.jpg");
 	background-size: 120%;
     background-repeat: no-repeat;
+}
+.ptaszek2 {
+	background-image:url("images/form_ok.jpg");
 }
 .RightFooterText {
 	float:left;
@@ -557,6 +570,7 @@ textarea[rows='5'] {
 }
 .footerButton:hover {
 	background:red;
+	cursor:pointer;
 }
 .FooterofTheFooters {
 	width:950px;

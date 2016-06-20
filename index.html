@@ -7,6 +7,15 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href="fontello/fontello.css" rel="stylesheet" type="text/css"/>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:800italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+	</script>
+	<script>
+	$(document).ready(function() {
+    $('#ptaszek').click(function () {
+        $(this).toggleClass('ptaszek2');
+        })
+    })
+	</script>
 </head>
 
 <body>
@@ -80,20 +89,21 @@
 							<button class='formButton'>DOŁĄCZ</button>
 				</div>
 				
-					<div class='form2'><div class='circle2'><div class='SmallCircle2'></div></div>
-						<span class='TextStandardPlan'>STANDARD PLAN</span>
-							<br><br>
-								<div class='Loop2'>
-									<span class='price2'>95<sup>99</sup></span>
-										<p class='LoppText2'>PLN/MSC</p>
-								</div>
+					<div class='form2'>
+						<div class='circle2'><div class='SmallCircle2'></div></div>
+							<span class='TextStandardPlan'>STANDARD PLAN</span>
+								<br><br>
+									<div class='Loop2'>
+										<span class='price2'>95<sup>99</sup></span>
+											<p class='LoppText2'>PLN/MSC</p>
+									</div>
 									<div class='form2TextContainer'>
 										<p class='TextForm2'>Zakup towaru+dowoz</p>
 										<p class='TextForm2a'>Serwis</p>
 										<p class='TextForm2b'>Gwarancja na 5 lat</p>
 									</div>
 							<button class='formButton2'>DOŁĄCZ</button>
-				</div>
+					</div>
 				
 				
 				<div class='form'><div class='circle'><div class='SmallCircle'></div></div>
@@ -117,19 +127,19 @@
 	<footer>
 		<div class='footerContainer'>
 			<p class='cost'>KONTAKT</P>
-				<div class='ContanerFormFooter'>
+				<form>
 					<br>
 						<input class='name' type="text" name="Imie" value='imie'>
 							<br><br>
 								<input class='name' type="text" name="Imie" value='e-mail'>
 									<br><br>
 										<textarea rows="5">Wiadomość</textarea>
-				</div>	
+				</form>	
 											<div class='RightFooter'>
-												<div class='RedChair'></div>
+												<div class='RedChair' ></div>
 													<div class='clickPlace'>
-														<div class='Ptaszek'></div>
-													</div>	
+														<div id='ptaszek'></div>
+													</div>
 														<div class='RightFooterText'>Zgadzam na przetwarzanie<br>danych osobowych</div>
 															<div class='ClearButton'><button class='footerButton'>WYŚLIJ</button></div>
 											</div>
@@ -146,6 +156,6 @@
 						<div class='textFooterRight'>SIT <STRONG>ON</STRONG> CHAIR</div>
 			</div>
 	</footer>
-			
+
 </body>
 </html>
