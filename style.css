@@ -72,7 +72,12 @@ ol > li > ul  li
 	z-index: 100;
 	
 }
-
+#firstli {
+	border-radius:10px 10px 0px 0px;
+}
+#lastli {
+	border-radius:0px 0px 10px 10px;
+}
 ol > li > ul > li:hover
 {
 	background-color:red;
@@ -422,7 +427,7 @@ sup {
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	position:relative;
-	margin-top:55px;
+	margin-top:50px;
 }
 .formButton2:hover {
 	background:red;
