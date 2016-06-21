@@ -1,6 +1,6 @@
 body {
-	font-family: 'ralewayblack';
-	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
 	margin:0px;
 	
 }
@@ -142,7 +142,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 
 }
 .smallText {
-	font-size:16px;
+	font-size:14px;
 	margin-left:-5px;
 	padding:10px;
 	
@@ -325,7 +325,7 @@ sup {
 	background:#e3e3e3;
 	padding:3px 0px 3px 0px;
 }
-.servis {
+.Servis {
 	color:#949494;
 	margin-top:-20px;
 	padding:3px 0px 3px 0px;
@@ -338,7 +338,7 @@ sup {
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	position:relative;
-	margin-top:50px;
+	margin-top:56px;
 }
 .formButton:hover {
 	background:red;
@@ -478,7 +478,7 @@ sup {
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	position:relative;
-	margin-top:13px;
+	margin-top:8px;
 }
 .formButton3:hover {
 	background:red;
