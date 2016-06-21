@@ -145,6 +145,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 	font-size:14px;
 	margin-left:-5px;
 	padding:10px;
+	text-indent:20px;
 	
 }
 .HeaderButton {
@@ -211,8 +212,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 .Lineclass2 {
 	margin-top:10px;
 	margin-left:15px;
-	font-family: 'Raleway', sans-serif;
 	font-size:15px;
+	font-weight:bold;
 }
 .Lineclass2::after {
 	background:#26c7a9;
@@ -233,6 +234,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 	padding-left:10px;
 	font-family: 'Raleway', sans-serif;
 	font-size:15px;
+	font-weight:bold;
 }
 article {
 	background:#f0f0f0;
@@ -338,7 +340,7 @@ sup {
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	position:relative;
-	margin-top:56px;
+	bottom:-56px;
 }
 .formButton:hover {
 	background:red;
@@ -419,7 +421,7 @@ sup {
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	position:relative;
-	margin-top:50px;
+	bottom:-50px;
 }
 .formButton2:hover {
 	background:red;
@@ -478,7 +480,7 @@ sup {
 	padding:5px 20px 5px 20px;
 	border-radius:10px;
 	position:relative;
-	margin-top:8px;
+	bottom:-8px;
 }
 .formButton3:hover {
 	background:red;
