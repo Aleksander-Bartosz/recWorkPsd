@@ -3,19 +3,19 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name='viewport' content='initial-scale=1,width=device-width'>
 	<title>Warsztat</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href="css/twitter.css" rel="stylesheet" type="text/css" />
 	<link href='https://fonts.googleapis.com/css?family=Raleway:500,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
-	</script>
-	<script>
-	$(document).ready(function() {
-    $('#ptaszek').click(function () {
-        $(this).toggleClass('ptaszek2');
-        })
-    })
-	</script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){    
+    var place = document.querySelector(".clickPlace");
+    place.addEventListener("click", function(){
+		document.getElementById('ptaszek').classList.toggle('ptaszek2');
+	});
+});    
+	</script>	
 </head>
 
 <body>
@@ -114,10 +114,10 @@
 									<p class='LoppText'>PLN/MSC</p>
 							</div>
 								<div class='form3TextContainer'>
-										<p class='TextForm3'>Zakup towaru+dowoz</p>
+									<p class='TextForm3'>Zakup towaru+dowoz</p>
 											<p class='TextForm3a'>Serwis</p>
-												<p class='TextForm3b'>Gwarancja na 6 lat</p>
-													<p class='TextForm3c'>Zakup towaru+dowoz</p>
+											<p class='TextForm3b'>Gwarancja na 6 lat</p>
+									<p class='TextForm3c'>Zakup towaru+dowoz</p>
 								</div>
 									<button class='formButton3'>DOŁĄCZ</button>
 				</div>
@@ -129,19 +129,19 @@
 			<p class='cost'>KONTAKT</P>
 				<form>
 					<br>
-						<input class='name' type="text" name="Imie" value='imie'>
+						<input class='name' type="text" name="Imie" placeholder='imie'>
 							<br><br>
-								<input class='name' type="text" name="Imie" value='e-mail'>
-									<br><br>
-										<textarea rows="5">Wiadomość</textarea>
+							<input class='name' type="text" name="Imie" placeholder='e-mail'>
+						<br><br>
+					<textarea rows="5" placeholder='Wiadomość'></textarea>
 				</form>	
 											<div class='RightFooter'>
 												<div class='RedChair' ></div>
 													<div class='clickPlace'>
 														<div id='ptaszek'></div>
-													</div>
-														<div class='RightFooterText'>Zgadzam na przetwarzanie<br>danych osobowych</div>
-															<div class='ClearButton'><button class='footerButton'>WYŚLIJ</button></div>
+														</div>
+													<div class='RightFooterText'>Zgadzam na przetwarzanie<br>danych osobowych</div>
+												<div class='ClearButton'><button class='footerButton'>WYŚLIJ</button></div>
 											</div>
 										
 		</div>	
@@ -150,10 +150,10 @@
 					<div class='SmallPic'>
 						<div class='fr'></div>
 							<div class='v'></div>
-								<div class='strange'></div>
-									<div class='twitter'></div>
+							<div class='strange'></div>
+						<div class='twitter'></div>
 					</div>
-						<div class='textFooterRight'>SIT <STRONG>ON</STRONG> CHAIR</div>
+				<div class='textFooterRight'>SIT <STRONG>ON</STRONG> CHAIR</div>
 			</div>
 	</footer>
 
