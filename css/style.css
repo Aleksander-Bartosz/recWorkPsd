@@ -176,7 +176,7 @@ article {
     width: 40%;
     background-position: center;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background-repeat: no-repeat;
 }
 #map {
