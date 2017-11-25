@@ -3,9 +3,11 @@ html,ul,body,h1,h2,h3,h4,h5,h6 {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     
+    
 }
 
-body {
+body,html {
+    
     overflow-x: hidden;
 }
 .container {
@@ -614,5 +616,10 @@ button {
     }
     .foot-container {
         align-items: end;
+    }
+}
+@media only screen and (max-width:300px) {
+    .cross {
+        left: -100px;
     }
 }
