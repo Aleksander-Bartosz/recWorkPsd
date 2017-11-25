@@ -516,6 +516,7 @@ button {
         box-sizing: border-box;
         width: 100vw;
         display: flex;
+        left: 0px;
         top: -325px;
         height: 326px;
         flex-direction: column;
