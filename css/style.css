@@ -34,6 +34,7 @@ header {
     transform: translate(-50%, 0%);
     width: 20%;
     max-width: 400px;
+    min-width: 90px;
     height: auto;
 }
 nav {
@@ -483,7 +484,6 @@ button {
         text-align: left;
         position: relative;
         top: 32px;
-        left: -141px;
     }
     .msg {
        font-size: 25px;
@@ -521,7 +521,6 @@ button {
         flex-direction: column;
         text-align: center;
         justify-content: flex-end;
-        align-items: center;
         background-color: white;
     }
     .rwdmenu li {
@@ -616,10 +615,5 @@ button {
     }
     .foot-container {
         align-items: end;
-    }
-}
-@media only screen and (max-width:300px) {
-    .cross {
-        left: -100px;
     }
 }
