@@ -464,7 +464,7 @@ button {
 @media only screen and (max-width: 840px) {
     .hamburgerNav {
         position: relative;
-        left: 160px;
+        left:25vw;
     }
     .cross {
         font-size: 40px;
@@ -533,13 +533,9 @@ button {
         font-size: 30px;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
     footer {
         height: 900px;
-    }
-    .hamburgerNav {
-        position: relative;
-        left: 130px;
     }
     .menuNav {
         font-size: 10px;
@@ -561,9 +557,7 @@ button {
     }
 }
 @media only screen and (max-width:480px) {
-    .menuNav {
-        font-size: 10px;
-    }
+    
     .logoImg {
         transform: translate(0%, 0%);
     }
