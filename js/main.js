@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!$(this).hasClass('open')) {
             let rwd = $('.rwdmenu');
             rwd.animate({
-               top:'-120px', 
+               top:'-190px', 
             },1000)
         }
 		$(this).toggleClass('open');
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     $('.cross').click(function () {
         let rwd = $('.rwdmenu');
             rwd.animate({
-               top:'-325px', 
+               top:'-326px', 
             },1000)
         $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').toggleClass('open');
     })

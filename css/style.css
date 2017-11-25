@@ -160,9 +160,8 @@ article {
     flex-direction: row;
 }
 .signature {
-    position: relative;
-    right: -26%;
-    transform: translate(50%,-50%);
+    margin: auto;
+    display: block;
 }
 .mapSection {
    width: 100%;
@@ -256,6 +255,7 @@ textarea {
     font-size: 18px;
     outline: none;
     width: 100%;
+    max-width: 560px;
     bordeR: none;
     border: solid 1px #58585a;
     background-color: rgba(255, 255, 255, 0.2);
@@ -289,14 +289,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px 100px;
+    margin: 50px 40px;
 }
 /*  Hamburger */
 #nav-icon2 {
     display: none;
 }
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
-  width: 60px;
+    width: 40px;
   height: 45px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -333,7 +333,7 @@ button {
 #nav-icon2 span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 5px;
   width: 50%;
   background: #0089ab;
   opacity: 1;
@@ -466,14 +466,44 @@ button {
         position: relative;
         left:25vw;
     }
+    .roundImg {
+        width: 70%;
+    }
+    textarea {
+        width: 70vw;
+        min-width: 200px;
+        max-width: 560px;
+    }
     .cross {
-        font-size: 40px;
+        font-size: 35px;
         text-align: left;
         position: relative;
         top: 32px;
+        left: 10px;
+    }
+    .msg {
+       font-size: 25px;
+    }
+    .write {
+    font-size: 18px;
+    }
+    .register {
+    font-size: 18px;
+    }
+    input {
+    font-size: 20px;
+    }
+    button {
+        font-size: 17px;
+    }
+    .artc-Head {
+        font-size: 25px;
     }
     .cross:hover {
         cursor: pointer;
+    }
+    .arc-text {
+        font-size: 15px;
     }
     .rwdmenu {
         display: block;
@@ -491,7 +521,7 @@ button {
         background-color: white;
     }
     .rwdmenu li {
-        font-size: 40px;
+        font-size: 25px;
     }
     .mapSection {
         flex-direction: column;
@@ -532,6 +562,9 @@ button {
     H3 {
         font-size: 30px;
     }
+    .madyBy p {
+    font-size: 10px;
+    }
 }
 @media only screen and (max-width: 560px) {
     footer {
@@ -540,9 +573,16 @@ button {
     .menuNav {
         font-size: 10px;
     }
+    .info-bg {
+        font-size: 30px;
+        margin: 0;
+    }
+    .info-txt {
+    font-size: 15px;
+    }
     .info {
         position: relative;
-        top: 450px;
+        top: 411px;
     }
     .arc-img {
         height: 400px;
