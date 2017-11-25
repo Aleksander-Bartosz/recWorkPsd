@@ -4,9 +4,7 @@ html,ul,body,h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto', sans-serif;
     
 }
-h1,h2,h3,h4,h5,h6, div {
-    box-sizing: border-box;
-    }
+
 body {
     overflow-x: hidden;
 }
@@ -489,13 +487,13 @@ button {
        font-size: 25px;
     }
     .write {
-    font-size: 18px;
+        font-size: 18px;
     }
     .register {
-    font-size: 18px;
+        font-size: 18px;
     }
     input {
-    font-size: 20px;
+        font-size: 20px;
     }
     button {
         font-size: 17px;
@@ -513,9 +511,8 @@ button {
         display: block;
         list-style: none;
         position: absolute;
-        /* height: 91vw; */
+        box-sizing: border-box;
         width: 100vw;
-        /* height: 0px; */
         display: flex;
         top: -325px;
         height: 326px;
