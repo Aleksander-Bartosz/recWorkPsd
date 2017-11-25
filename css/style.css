@@ -175,7 +175,8 @@ article {
     width: 40%;
     background-position: center;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: left;
     background-repeat: no-repeat;
 }
 #map {
@@ -184,7 +185,7 @@ article {
     float:left;
 }
 .roundC {
-    transform: translate(-50%,50%);
+    transform: translate(-25%,50%);
 }
 footer {
     background-image: url(../img/footer.png);
