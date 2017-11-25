@@ -510,13 +510,13 @@ button {
         font-size: 15px;
     }
     .rwdmenu {
-        display: block;
         list-style: none;
         position: absolute;
         box-sizing: border-box;
         width: 100vw;
         display: flex;
         left: 0px;
+        z-index:5;
         top: -325px;
         height: 326px;
         flex-direction: column;
