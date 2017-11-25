@@ -518,6 +518,7 @@ button {
         display: flex;
         top: -325px;
         height: 326px;
+        left: 0px;
         flex-direction: column;
         text-align: center;
         justify-content: flex-end;
