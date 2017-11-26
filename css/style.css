@@ -50,7 +50,8 @@ H3 {
     letter-spacing: 10px;
     color: #0089ab;
     text-align: center;
-    margin-top: 5%;
+    position: relative;
+    top:25%;
 }
 .menuNav {
     list-style: none;
@@ -190,7 +191,10 @@ article {
     float:left;
 }
 .roundC {
-    transform: translate(-25%,50%);
+    position: relative;
+    left: -50%;
+    top: 0%;
+    transform: translate(0%,50%);
 }
 footer {
     background-image: url(../img/footer.png);
@@ -510,12 +514,13 @@ button {
         font-size: 15px;
     }
     .rwdmenu {
-        display: block;
         list-style: none;
         position: absolute;
         box-sizing: border-box;
         width: 100vw;
         display: flex;
+        left: 0px;
+        z-index:5;
         top: -325px;
         height: 326px;
         left: 0px;
